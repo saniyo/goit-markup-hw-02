@@ -95,7 +95,7 @@ a:link {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .section {
@@ -110,6 +110,7 @@ a:link {
 /* features */
 .feature-title {
     color: var(--primary-text-color);
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -120,6 +121,7 @@ a:link {
 
 .feature-description {
     color: var(--secondary-text-color);
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -132,6 +134,7 @@ a:link {
 /* who we are */
 .whoweare-title{
     color: var(--primary-text-color);
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
@@ -140,6 +143,7 @@ a:link {
 
 .whoweare-description{
     color: var(--secondary-text-color);
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -158,6 +162,7 @@ a:link {
 
 .projects-title {
     color:var(--primary-text-color);
+
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -167,6 +172,7 @@ a:link {
 
 .projects-description {
     color:var(--secondary-text-color);
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -178,6 +184,7 @@ a:link {
 /* ADDRESS */
 address {
     color: #000000;
+
     font-style: inherit;
     font-weight: 400;
     font-size: 14px;
