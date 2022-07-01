@@ -53,6 +53,7 @@ a:link {
     color: var(--white-text-color);
     background-color: var(--accent-color);
     /* text-align: center; */
+    cursor: pointer;
 }
 
 .description {
