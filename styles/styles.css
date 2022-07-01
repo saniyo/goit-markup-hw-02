@@ -52,7 +52,7 @@ a:link {
 .button {
     color: var(--white-text-color);
     background-color: var(--accent-color);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .description {
