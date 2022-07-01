@@ -7,13 +7,13 @@
     --tranp-white-text-color:rgba(255, 255, 255, 0.6);
     --accent-color: #18A0FB;
     --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2F303A;
 }
 
 .page {
     background-color: #ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
 }
 
 .list {
@@ -24,11 +24,18 @@
 .logo {
     color: #000000;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio-foot{
+    color: var(--white-text-color);
 }
 
 .logo:hover,
@@ -49,20 +56,12 @@ a:link {
     color: var(--accent-color);
 }
 
-.button {
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-    /* text-align: center; */
-    cursor: pointer;
-}
-
 .description {
     color: var(--secondary-text-color);
 }
 
 .nav.list {
     color: var(--primary-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -71,7 +70,6 @@ a:link {
 
 .nav.link {
     color: var(--secondary-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -86,17 +84,27 @@ a:link {
 
 /* MAIN PAGRE */
 .hero {
-
+    background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
-    color: #000000;
-    /* color: var(--white-text-color); */
-    font-style: normal;
+    color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-transform: uppercase;
     /* text-align: center; */
+}
+
+.button {
+    font-family: inherit;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .section {
@@ -104,15 +112,17 @@ a:link {
 }
 
 .section-title {
-    color: #000000;
-            /* color: var(--primary-text-color); */
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 /* features */
 .feature-title {
     color: var(--primary-text-color);
 
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -123,8 +133,6 @@ a:link {
 .feature-description {
     color: var(--secondary-text-color);
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -145,8 +153,8 @@ a:link {
 .whoweare-description{
     color: var(--secondary-text-color);
 
-    font-weight: 400;
-    font-size: 16px;
+    /* font-weight: 400;
+    font-size: 16px; */
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
@@ -164,7 +172,6 @@ a:link {
 .projects-title {
     color:var(--primary-text-color);
 
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -174,12 +181,14 @@ a:link {
 .projects-description {
     color:var(--secondary-text-color);
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 2;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--secondary-bg-color);
 }
 
 /* ADDRESS */
@@ -195,11 +204,11 @@ address {
 
 .address.physical {
     color: #000000;
-    /* color: var(--white-text-color); */
+    color: var(--white-text-color);
 }
 
 .address.virtual{
     color: #000000;
-    /* color: var(--tranp-white-text-color); */
+    color: var(--tranp-white-text-color);
 }
 
